@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:id="@+id/itemCatalogo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/tvCatalogoNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Producto"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp" app:layout_constraintStart_toEndOf="@+id/imgCatalogoImagen"
+                android:layout_marginStart="8dp"/>
+        <ImageView
+                android:id="@+id/imgCatalogoImagen"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:padding="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_camera_black_24dp" />
+
+        <TextView
+                android:id="@+id/tvCatalogoPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio Producto"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@+id/imageViewDinero" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/tvCatalogoNombre"/>
+
+        <TextView
+                android:id="@+id/tvCatalogoFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Fecha publicacion"
+                app:layout_constraintStart_toEndOf="@+id/imageViewFecha"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/tvCatalogoPrecio"/>
+        <ImageView
+                android:id="@+id/imageViewFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_date_range_black_24dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewDinero"
+                app:layout_constraintStart_toStartOf="@+id/imageViewDinero"/>
+        <ImageView
+                android:id="@+id/imageViewDinero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_attach_money_black_24dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/tvCatalogoNombre"
+                app:layout_constraintStart_toStartOf="@+id/tvCatalogoNombre"/>
+
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp" app:srcCompat="@drawable/ic_carrito" android:id="@+id/img_comprar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="29dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+

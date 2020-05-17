@@ -1,0 +1,26 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=C1:5E:8E:9F:4C:26:FE:BA:A9:98:28:77:2E:3C:91:C9:39:12:3E:CB%3Bcom.example.wallapop.ui.Productos
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.wallapop.ui.Productos
+
+    SHA-1 certificate fingerprint:
+    C1:5E:8E:9F:4C:26:FE:BA:A9:98:28:77:2E:3C:91:C9:39:12:3E:CB
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyC97VgIgGr-kRwQL_jC4x5uWRDYxvSSkV0
+    </string>
+</resources>

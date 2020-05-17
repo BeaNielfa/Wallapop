@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Wallapop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_catalogo">Catalogo</string>
+    <string name="menu_productos">Mis productos</string>
+    <string name="menu_historial">Historial</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="introducirUsuario">Introduce tu nombre de Usuario.</string>
+    <string name="introducirEmail">Introduce tu email.</string>
+    <string name="introducirContraseña">Introduce tu contraseña.</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="usuario">Usuario</string>
+    <string name="favoritos">Añadir a Favoritos</string>
+    <string name="bienvenido">Bienvenido a Wallapop</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="email">Email</string>
+    <string name="filtro">Aplicar filtros</string>
+    <string name="filtrarNombre">Filtrar por nombre</string>
+    <string name="ubicacion">Guardar Dirección</string>
+    <string name="seleccionarUbicacion">Seleccionar Ubicación</string>
+    <string name="verUbicacion">Ver Ubicación</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="nombre">Nombre:</string>
+    <string name="precio">Precio:</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="fecha">Elegir Fecha:</string>
+</resources>
